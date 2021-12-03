@@ -4,7 +4,7 @@ title: Navbar
 email: 
 description: > # this means to ignore newlines until "baseurl:"
   Navbar
-# baseurl:  # the subpath of your site, e.g. /blog/
+baseurl: /bootstrap-jekyll-gulp/  # the subpath of your site, e.g. /blog/
 url: "http://localhost:3000" # the base hostname & protocol for your site
 
 twitter_username: jekyllrb
