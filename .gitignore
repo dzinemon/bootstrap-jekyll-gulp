@@ -1,0 +1,7 @@
+node_modules/
+bootstrap-vars.scss
+/_site
+.DS_Store
+vendor/
+package-lock.json
+Gemfile.lock

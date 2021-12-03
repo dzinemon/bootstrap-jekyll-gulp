@@ -1,0 +1,87 @@
+items:
+  - title: Navbar Item 1
+    url: 
+    subItems: true
+    isDropdown: true
+    image-url:
+    image:
+    heading: Heading
+    items:
+      - title: Sub Item
+        url: "#"
+        subtitle: At vero eos et accusamus et iusto odio dignissimos
+        image: /images/tabs/img/Sintel-interface-01.png
+        icon: /images/tabs/sigpro.svg
+      - title: Sub Item
+        url: "#"
+        subtitle: At vero eos et accusamus et iusto odio dignissimos
+        image: /images/tabs/img/Sintel-interface-02.png
+        icon: /images/tabs/pyteller.svg
+      - title: Sub Item
+        url: "#"
+        subtitle: At vero eos et accusamus et iusto odio dignissimos
+        image: /images/tabs/img/Sintel-interface-03.png
+        icon: /images/tabs/orion.svg
+      - title: Sub Item
+        url: "#"
+        subtitle: At vero eos et accusamus et iusto odio dignissimos
+        image: /images/tabs/img/Sintel-interface-04.png
+        icon: /images/tabs/mtv.svg
+  - title: Navbar Item 2
+    url: 
+    subItems: true
+    isDropdown: true
+    image-url:
+    image:
+    heading: Heading 2
+    items:
+      - title: Sub Item
+        url: "#"
+        subtitle: At vero eos et accusamus et iusto odio dignissimos
+        image: /images/tabs/img/Sintel-interface-01.png
+        icon: /images/tabs/sigpro.svg
+      - title: Sub Item
+        url: "#"
+        subtitle: At vero eos et accusamus et iusto odio dignissimos
+        image: /images/tabs/img/Sintel-interface-02.png
+        icon: /images/tabs/pyteller.svg
+      - title: Sub Item
+        url: "#"
+        subtitle: At vero eos et accusamus et iusto odio dignissimos
+        image: /images/tabs/img/Sintel-interface-03.png
+        icon: /images/tabs/orion.svg
+      - title: Sub Item
+        url: "#"
+        subtitle: At vero eos et accusamus et iusto odio dignissimos
+        image: /images/tabs/img/Sintel-interface-04.png
+        icon: /images/tabs/mtv.svg
+      - title: Sub Item
+        url: "#"
+        subtitle: At vero eos et accusamus et iusto odio dignissimos
+        image: /images/tabs/img/Sintel-interface-03.png
+        icon: /images/tabs/orion.svg
+      - title: Sub Item
+        url: "#"
+        subtitle: At vero eos et accusamus et iusto odio dignissimos
+        image: /images/tabs/img/Sintel-interface-04.png
+        icon: /images/tabs/mtv.svg
+      - title: Sub Item
+        url: "#"
+        subtitle: At vero eos et accusamus et iusto odio dignissimos
+        image: /images/tabs/img/Sintel-interface-03.png
+        icon: /images/tabs/orion.svg
+      - title: Sub Item
+        url: "#"
+        subtitle: At vero eos et accusamus et iusto odio dignissimos
+        image: /images/tabs/img/Sintel-interface-04.png
+        icon: /images/tabs/mtv.svg
+    
+  - title: Resources
+    url: "#"
+  - title: Docs
+    url: "#"
+  - title: Company
+    url: "https://medium.com/@dailabmit"
+  - title: Contact
+    url: "#contact"
+    

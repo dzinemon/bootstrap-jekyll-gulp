@@ -1,0 +1,60 @@
+/* Bootstrap */
+// Custom.scss
+// Option B: Include parts of Bootstrap
+
+// Required
+// $theme-colors: (
+//   "primary": #484981,
+//   "dark": #382548,
+//   "warning": #aa6187,
+//   "light": #e7d0c3,
+//   "secondary": #2c5964,
+//   "info": #f8d02b,
+// );
+
+$primary:   #484981;
+$dark:      #382548; // updated
+$warning:   #aa6187;
+$light:     #e7d0c3;
+$secondary: #2c5964;
+$info:      #f8d02b;
+$danger:      #ff411f;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+// node_modules/bootstrap/scss/_variables.scss
+// @import "../node_modules/bootstrap/scss/functions";
+// @import "../node_modules/bootstrap/scss/variables";
+// @import "../node_modules/bootstrap/scss/mixins";
+
+// $theme-colors: (
+//   "primary": #484981,
+//   "dark": #382548,
+//   "warning": #aa6187,
+//   "light": #e7d0c3,
+//   "secondary": #2c5964,
+//   "info": #f8d02b,
+// );
+
+@import "vars/custom";
+
+// Optional
+
+/* Global */
+@import "base/global";
+@import "base/bg";
+@import "base/object";
+
+/* Page */
+@import "pages/home-page";
+
+/* Layout */
+@import "layout/header";
+@import "layout/page";
+@import "layout/footer";
+
+/* Components */
+@import "components/_navbar.sass";
+
+/* Typography */
+@import "typography/font-face";
+@import "typography/font-family";

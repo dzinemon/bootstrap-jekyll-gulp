@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#6D2779"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+
+    <link rel="stylesheet" href="{{'/css/main.css' | absolute_url }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="icon" type="image/png" href="{{'/images/favicon.png' | absolute_url}}"/>
+    <link rel="apple-touch-icon" href="{{'/images/favicon.png' | absolute_url}}">
+
+    <style>
+      img[src$=".jpg"] {
+        image-rendering: -moz-crisp-edges; 
+        image-rendering: -o-crisp-edges; 
+        image-rendering: -webkit-optimize-contrast;
+        image-rendering: crisp-edges;
+        -ms-interpolation-mode: nearest-neighbor; 
+      }
+      img {
+        image-rendering: pixelated;
+      }
+    </style>
+
+  </head>
+  <body>
+    {% include js-nav.html %}
+    <div class="container">
+      <div class="row">
+        <div class="col-12">{{ content }}</div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p class="text-primary">.text-primary</p>
+          <p class="text-secondary">.text-secondary</p>
+          <p class="text-success">.text-success</p>
+          <p class="text-danger">.text-danger</p>
+          <p class="text-warning">.text-warning</p>
+          <p class="text-info">.text-info</p>
+          <p class="text-light bg-dark">.text-light</p>
+          <p class="text-dark">.text-dark</p>
+          <p class="text-muted">.text-muted</p>
+          <p class="text-white bg-dark">.text-white</p>
+        </div>
+      </div>
+      <div class="row">
+<div class="col-3 p-3 mb-2 bg-primary text-white">.bg-primary</div>
+<div class="col-3 p-3 mb-2 bg-secondary text-white">.bg-secondary</div>
+<div class="col-3 p-3 mb-2 bg-success text-white">.bg-success</div>
+<div class="col-3 p-3 mb-2 bg-danger text-white">.bg-danger</div>
+<div class="col-3 p-3 mb-2 bg-warning text-dark">.bg-warning</div>
+<div class="col-3 p-3 mb-2 bg-info text-white">.bg-info</div>
+<div class="col-3 p-3 mb-2 bg-light text-dark">.bg-light</div>
+<div class="col-3 p-3 mb-2 bg-dark text-white">.bg-dark</div>
+<div class="col-3 p-3 mb-2 bg-white text-dark">.bg-white</div>
+      </div>
+    </div>
+
+
+    <script src="{{'js/dist/app.bundle.js' | relative_url }}"></script>
+    <script src="{{'js/dist/main.bundle.js' | relative_url }}"></script>
+
+    <script>
+      window.addEventListener('load', function(){
+        document.querySelectorAll('a.smooth-scroll[href^="#"]').forEach(anchor => {
+          anchor.addEventListener('click', function (e) {
+              e.preventDefault();
+              console.log(this.getAttribute('href'));
+              document.querySelector(this.getAttribute('href')).scrollIntoView({
+                  behavior: 'smooth'
+              });
+          });
+        });
+      })
+    </script>
+    
+  </body>
+</html>
