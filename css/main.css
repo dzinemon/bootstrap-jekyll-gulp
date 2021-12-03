@@ -9921,7 +9921,7 @@ a.hover-opacity:hover {
 
 .globalNav-SubItem {
   opacity: 0;
-  transform: translateX(0px);
+  transform: translateX(40px);
   position: relative;
 }
 
@@ -10086,27 +10086,6 @@ a.hover-opacity:hover {
 }
 
 /* Typography */
-@font-face {
-  font-family: "HelveticaNeue";
-  src: url("https://dai-lab.github.io/opensource/fonts/HelveticaNeueLt.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "HelveticaNeue";
-  src: url("https://dai-lab.github.io/opensource/fonts/HelveticaNeue Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "HelveticaNeue";
-  src: url("https://dai-lab.github.io/opensource/fonts/HelveticaNeuBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-}
-
 @media (min-width: 768px) {
   body .h1 {
     font-size: 2.375rem;
